@@ -4,7 +4,7 @@
       <el-button type="success" icon="el-icon-plus" plain @click="addUser()" style="float:left"></el-button>
       <el-button type="warning" icon="el-icon-delete" plain @click="deleteBatch()" style="float:left">批删</el-button>
       <el-form-item label="审批人">
-        <el-input v-model="mydata.name" placeholder="审批人"></el-input>
+        <el-input v-model="mydata.name" placeholder="审批人是大哥"></el-input>
       </el-form-item>
       <el-form-item label="出生日期">
         <el-input type="date" v-model="mydata.start" placeholder="开始日期"></el-input>
